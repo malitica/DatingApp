@@ -60,7 +60,7 @@ namespace API.Data
 
         }
 
-        public void UpdateUser(AppUser user)
+        public void Update(AppUser user)
         {
             _context.Entry(user).State = EntityState.Modified;
         }
